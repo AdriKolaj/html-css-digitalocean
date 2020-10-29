@@ -21,7 +21,8 @@
   color: white;
 }
 .txt_blue {
-  color: #0169FF
+  color: #0169FF;
+  width: 500;
 }
 .txt_grey {
   color: #5B6A86;
@@ -31,12 +32,18 @@
 }
 
 .v_padding {
-  padding: 60px 0;
+  padding: 55px 0;
+}
+.v_paddingmin {
+  padding: 30px 0;
 }
 
 
 h3 {
   font-size: 26px;
+}
+h5{
+  color: #5B6A86;
 }
 p {
   font-size: 19px;
@@ -151,14 +158,37 @@ p {
 }
 /* /jumbotron */
 
+/* customers */
+#customers {
+  background-color: #F2F5F9;
+}
+
+#customers_logo .row img {
+  height: 100%;
+}
+
+#customers .txt_blue {
+  font-size: 16px;
+}
+#customers .txt_blue:hover {
+  text-decoration: none;
+  color: #1633FF
+}
+/* /customers */
+
 
 /* xs devices */
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 46px;
   }
+
   .r_padding {
     padding-right: 40px;
+  }
+
+  h5 {
+    font-size: 16px;
   }
 
 }
