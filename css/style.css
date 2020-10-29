@@ -1,0 +1,164 @@
+/* General Settings */
+
+.body_mod {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  color: #031B4E;
+}
+
+.btn.btn_white {
+  color: #006AFF;
+  background-color: white;
+  border: 1px solid #006AFF;
+  font-weight: 500;
+}
+.btn.btn_white:hover {
+  color: white;
+  background-color: #006AFF;
+}
+
+.txt_white {
+  color: white;
+}
+.txt_blue {
+  color: #0169FF
+}
+.txt_grey {
+  color: #5B6A86;
+}
+.txt_lightgrey {
+  color: lightgrey;
+}
+
+.v_padding {
+  padding: 60px 0;
+}
+
+
+h3 {
+  font-size: 26px;
+}
+p {
+  font-size: 19px;
+}
+/* /General Settings */
+
+/* navbar settings */
+#nav_bar {
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+#nav_bar > .container {
+  height: 100%;
+}
+
+.vertical_align {
+  display: inline-block;
+  line-height: 70px;
+}
+.vertical_align ul li{
+  display: inline-block;
+  vertical-align: middle;
+  list-style: none;
+}
+
+.vertical_align ul li a {
+  text-decoration: none;
+  color: #031B4E;
+  font-weight: 500;
+}
+.vertical_align ul li a:hover {
+  color: #006AFF;
+}
+
+.vertical_align .fa-chevron-down {
+  margin-left: 3px;
+}
+
+.nav_center ul li {
+  margin-right: 20px;
+}
+.nav_right ul li {
+  margin-left: 20px;
+}
+
+#nav_img_cnt > img {
+  height: 25px;
+  margin-right: 70px;
+}
+
+.hamb_icon {
+  font-size: 21px;
+}
+.hamb_icon:hover {
+  color: #5B6987;
+}
+/* /navbar settings */
+
+/* jumbotron */
+#jumbotron {
+  width: 100%;
+  background-image: url("../img/jumbotron.svg");
+  background-position: center;
+}
+
+#jumbotron_form {
+  padding: 15px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+#jumbotron_form .txt_blue {
+  margin-top: 10px;
+}
+
+#jumbotron_form form input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+.btn_formblue {
+  color: white;
+  background-color: #0169FF;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.btn_formblue:hover {
+  color: white;
+  background-color: #1633FF;
+}
+
+.btn_formwhite {
+  position: relative;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #5B6A86;
+  background-color: white;
+}
+.btn_formwhite > img {
+  position: absolute;
+  width: 18px;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#jumbotron_form > p {
+  font-size: 13px;
+}
+/* /jumbotron */
+
+
+/* xs devices */
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 46px;
+  }
+  .r_padding {
+    padding-right: 40px;
+  }
+
+}
