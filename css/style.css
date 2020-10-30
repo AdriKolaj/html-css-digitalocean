@@ -42,11 +42,17 @@
 h3 {
   font-size: 26px;
 }
-h5{
+h4 {
+  margin-top: 20px;
+}
+h5 {
   color: #5B6A86;
 }
 p {
   font-size: 19px;
+}
+.p_description {
+  font-size: 14px;
 }
 /* /General Settings */
 
@@ -176,8 +182,57 @@ p {
 }
 /* /customers */
 
+/* deployment */
+.deployment_illustration ul{
+  list-style-type: none;
+  padding-bottom: 20px;
+  padding-left: 0px;
+}
 
-/* xs devices */
+.deployment_illustration ul li {
+  padding: 8px 0 8px 8px;
+  border-left: 2px solid #E5E8EC;
+  font-size: 18px;
+}
+.deployment_illustration ul li:hover {
+  border-color: #0569FF;
+}
+
+.deployment_illustration ul li a {
+  color: #687795;
+}
+.deployment_illustration ul li a:hover {
+  text-decoration: none;
+  color: #031C4E;
+}
+
+/* /deployment */
+
+/* small and xs devices */
+@media only screen and (max-width: 991px) {
+  .deployment_illustration div {
+    padding: 0 5px;
+  }
+}
+/* /small and xs devices */
+
+/* xs small and medium devices */
+@media only screen and (max-width: 1200px) {
+  h4 {
+    font-size: 20px;
+  }
+
+  .deployment_illustration ul li {
+    font-size: 21px;
+  }
+
+  .deployment_illustration p {
+    font-size: 15px;
+  }
+}
+/* /xs small and medium devices */
+
+/* medium and xl devices */
 @media only screen and (min-width: 992px) {
   h1 {
     font-size: 46px;
@@ -190,5 +245,22 @@ p {
   h5 {
     font-size: 16px;
   }
+  
+  /* deployment section padding */
+  .deployment_illustration {
+    padding: 55px 70px 0 70px;
+  }
 
+  .deploy_description > div > div {
+    margin-bottom: 30px;
+  }
 }
+/* /medium and xl devices */
+
+/* xl devices */
+@media only screen and (min-width: 1201px) {
+  #customers > .container {
+    padding: 0 80px;
+  }
+}
+/* /xl devices */
