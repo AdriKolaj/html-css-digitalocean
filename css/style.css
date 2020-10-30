@@ -309,6 +309,30 @@ p {
 }
 /* /service */
 
+/* developer teams */
+#devteams {
+  background-color: #F2F5F9;
+}
+
+#devteams .read_story {
+  display: inline-block;
+  width: 50%;
+  background-color: white;
+}
+
+#devteams .read_story img {
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.dev_cofounder .p_dev {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* /developer teams */
+
 /* small and xs devices */
 @media only screen and (max-width: 991px) {
   .deployment_illustration div {
