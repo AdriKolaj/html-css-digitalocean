@@ -208,10 +208,52 @@ p {
 
 /* /deployment */
 
+/* design */
+#design {
+  background-color: #F2F5F9;
+}
+
+.design_text p {
+  padding-top: 10px;
+}
+
+.design_illustration img {
+  width: 55%;
+  margin-top: 20px;
+}
+
+.design_illustration .fas {
+  padding: 0 15px;
+  font-size: 35px;
+  color: #7B89A4;
+}
+.design_illustration .fas:hover {
+  cursor: pointer;
+  color: #031C4E;
+}
+
+.design_description .p_description {
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.design_page .fa-circle {
+  font-size: 11px;
+  color: #0169FF;
+}
+.design_page .fa-circle:hover {
+  cursor: pointer;
+}
+/* /design */
+
+
 /* small and xs devices */
 @media only screen and (max-width: 991px) {
   .deployment_illustration div {
     padding: 0 5px;
+  }
+  .design_illustration img {
+    width: 75%;
   }
 }
 /* /small and xs devices */
@@ -245,7 +287,7 @@ p {
   h5 {
     font-size: 16px;
   }
-  
+
   /* deployment section padding */
   .deployment_illustration {
     padding: 55px 70px 0 70px;
