@@ -50,6 +50,10 @@ h4 {
 h5 {
   color: #5B6A86;
 }
+h6 {
+  color: white;
+  font-size: 16px;
+}
 p {
   font-size: 19px;
 }
@@ -361,6 +365,47 @@ p {
   background-color: #CED4E4;
 }
 /* /get started */
+
+/* footer */
+footer {
+  background-color: #000F28;
+}
+
+.footer_img {
+  margin-bottom: 10px;
+}
+
+.p_copy {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.p_made {
+  margin-top: 0;
+  font-size: 15px;
+  color: #3b5884;
+}
+
+.footer_social ul,
+.footer_links ul{
+  list-style: none;
+  padding: 0;
+}
+.footer_social ul li{
+  display: inline-block;
+  padding-right: 6px;
+  font-size: 21px;
+}
+.footer_social ul li a,
+.footer_links ul li a{
+  color: inherit;
+}
+
+.footer_links ul {
+
+}
+/* /footer */
+
 
 /* xs devices */
 @media only screen and (max-width: 767px) {
