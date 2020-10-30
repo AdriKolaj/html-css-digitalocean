@@ -38,7 +38,9 @@
   padding: 30px 0;
 }
 
-
+h2{
+  font-size: 32px;
+}
 h3 {
   font-size: 26px;
 }
@@ -252,6 +254,63 @@ p {
 }
 /* /features */
 
+/* service */
+#service {
+  background-color: #031C4E;
+  background-image: url("../img/service-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#service h2 {
+  padding-bottom: 15px;
+}
+
+#service .row_left .row {
+  margin-right: 15px;
+}
+
+#service span,
+#service p,
+#service a
+{
+  font-size: 14px;
+}
+
+#service p {
+  color: #8B96AE;
+}
+
+#service a {
+  color: rgb(0, 215, 210);
+  font-weight: 300;
+  font-size: 13px;
+}
+#service a::after {
+  margin-left: 8px;
+  content: '>';
+  font-size: 13px;
+  color: rgb(0, 215, 210);
+}
+#service a:hover{
+  text-decoration: none;
+  font-weight: 400;
+  color: #1633FF;
+}
+#service a:hover::after{
+  text-decoration: none;
+  color: #1633FF;
+}
+
+#service .border_mod:not(:first-child) {
+  padding-top: 10px;
+}
+
+#service .border_mod:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+/* /service */
 
 /* small and xs devices */
 @media only screen and (max-width: 991px) {
