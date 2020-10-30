@@ -246,14 +246,25 @@ p {
 }
 /* /design */
 
+/* features */
+#features h2 {
+  padding-bottom: 25px;
+}
+/* /features */
+
 
 /* small and xs devices */
 @media only screen and (max-width: 991px) {
   .deployment_illustration div {
     padding: 0 5px;
   }
+
   .design_illustration img {
     width: 75%;
+  }
+
+  #features .row > div {
+    padding-bottom: 25px;
   }
 }
 /* /small and xs devices */
