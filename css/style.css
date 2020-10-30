@@ -344,6 +344,24 @@ p {
 
 /* /developer teams */
 
+/* get started */
+#getstarted {
+  background-color: #0459FE;
+  background-image: url("../img/getstarted-bg.svg");
+  background-position: right;
+  background-size: cover;
+}
+
+#getstarted .btn_white {
+  margin-top: 15px;
+}
+
+#getstarted .btn_white:hover {
+  color: #006AFF;;
+  background-color: #CED4E4;
+}
+/* /get started */
+
 /* xs devices */
 @media only screen and (max-width: 767px) {
   #devteams .read_story {
