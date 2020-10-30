@@ -267,9 +267,7 @@ p {
   padding-bottom: 15px;
 }
 
-#service .row_left .row {
-  margin-right: 15px;
-}
+
 
 #service span,
 #service p,
@@ -295,7 +293,6 @@ p {
 }
 #service a:hover{
   text-decoration: none;
-  font-weight: 400;
   color: #1633FF;
 }
 #service a:hover::after{
@@ -325,6 +322,14 @@ p {
   #features .row > div {
     padding-bottom: 25px;
   }
+
+    #service span,
+    #service p {
+      font-size: 13px;
+    }
+    #service a {
+      font-size: 12px;
+    }
 }
 /* /small and xs devices */
 
@@ -341,13 +346,21 @@ p {
   .deployment_illustration p {
     font-size: 15px;
   }
+
+  #service .row {
+    margin: 0 10px;
+  }
+  #service .row_right {
+    padding-top: 35px;
+  }
+
 }
 /* /xs small and medium devices */
 
 /* medium and xl devices */
 @media only screen and (min-width: 992px) {
   h1 {
-    font-size: 46px;
+    font-size: 54px;
   }
 
   .r_padding {
@@ -373,6 +386,10 @@ p {
 @media only screen and (min-width: 1201px) {
   #customers > .container {
     padding: 0 80px;
+  }
+
+  #service .row_left .row {
+    margin-right: 15px;
   }
 }
 /* /xl devices */
